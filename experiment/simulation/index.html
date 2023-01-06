@@ -1,13 +1,122 @@
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    
+
+  
+  <link rel="stylesheet"  href="./css/main.css">
+  <link rel="stylesheet"  href="./css/default.css">
+  <link rel="stylesheet"  href="./css/override.css">
+  <link rel="stylesheet"  href="./css/style.css">
+  
+  
+  
+
 </head>
 <body>
-		<!-- Your code goes here-->
+  
+  <div id="container">
+    <section id="experiment-article-section-9">
+    <div class="content" id="experiment-article-section-9-content">
+      <!--<div class="imageDiv"><object data="source/simulator.swf" height="650" width="790" class="expEmbd"></object>
+      </div>-->
+  <div id="myCanvas">
+    <div class="ME_topDiv">
+      <div class="ME_imgDiv">
+        <h1 class="exp_header">Experiment --- Perfomance of an Evasee</h1>
+        <div class="ME_divLeft">
+          <img src="images/anemometerr.png" id="anemometer" width="25" height="176">
+        </div><!-- end of .ME_divLeft -->
+        
+        
+        <div class="ME_divMiddle">
+          <div class="red_tube"><div class='dynm_red_div'></div></div>
+        </div><!-- end of .ME_divMiddle -->
+        
+        
+        <div class="ME_divRight">
+          <div class="ME_evasee"></div>
+          <div class="ME_start">
+            <label>Please insert the Diameter of the Duct(Between 0.5 to 0.6) : </label>
+            <input type="text" name="duct_diameter" id="duct_diameter" value="" />
+            <input type="button" name="duct_diam_bttn" id="duct_diam_bttn" value="Yes" />
+          </div>
+        </div><!-- end  of .ME_divRight -->
+      </div>
+      
+      <div class="ME_tables">
+        <div class="ME_wo_evasee">
+          <h3>Measurment Table For Without Evasee</h3>
+          <div class="div_at">
+            <input type="button" id="ME_wo_at" class="ME_bttns" for="without" value="Anemometer Traversing" />
+          </div>
+          <div class='dynm_div vr_1'><span>Velocity Reading 1 (m/sec) </span>: <input type='text' name='vr1' id='vr1' value='' /></div>
+          <div class='dynm_div vr_2'><span>Velocity Reading 2 (m/sec) </span>: <input type='text' name='vr2' id='vr2' value='' /></div>
+          <div class='dynm_div vr_3'><span>Velocity Reading 3 (m/sec) </span>: <input type='text' name='vr3' id='vr3' value='' /></div>
+          <div class="div_at">
+            <input type="button" id="ME_wo_measure" class="btn_measure" for="without" value="Measure" />
+          </div>
+          <div class='dynm_div remn_div'><span>Static pressure(Pa) </span>: <input type='text' name='sp' id='sp' value='' /></div>
+          <div class='dynm_div remn_div'><span>Avg Velocity(m/sec) </span>: <input type='text' name='av' id='av' value='' /></div>
+          <div class='dynm_div remn_div'><span>Quantity of Air </span>: <input type='text' name='qof' id='qof' value='' /></div>
+        </div>
+        <div class="ME_w_evasee">
+          <div class='ME_optionsDiv'>
+            <h4>Now Measure the air velocity and static pressure with the Evasee &nbsp;<input type="button" id="ME_w_ev_btn" value="Measure with Evasee" /></h4>
+          </div><!-- end of. ME_optionsDiv -->
+          <div class="ME_actualDiv">
+            <h3>Measurment Table For With Evasee</h3>
+            <div class="div_at"><input type="button" id="ME_w_at" class="ME_bttns" for="with" value="Anemometer Traversing" /></div>
+            <div class='dynm_div vr_1'><span>Velocity Reading 1 (m/sec) </span>: <input type='text' name='vr1' id='vr1' value='' /></div>
+            <div class='dynm_div vr_2'><span>Velocity Reading 2 (m/sec) </span>: <input type='text' name='vr2' id='vr2' value='' /></div>
+            <div class='dynm_div vr_3'><span>Velocity Reading 3 (m/sec) </span>: <input type='text' name='vr3' id='vr3' value='' /></div>
+            <div class="div_at">
+              <input type="button" id="ME_w_measure" class="btn_measure" for="with" value="Measure" />
+            </div>
+            <div class='dynm_div remn_div'><span>Static pressure(Pa) </span>: <input type='text' name='sp' id='sp' value='' /></div>
+            <div class='dynm_div remn_div'><span>Avg Velocity(m/sec) </span>: <input type='text' name='av' id='av' value='' /></div>
+            <div class='dynm_div remn_div'><span>Quantity of Air </span>: <input type='text' name='qof' id='qof' value='' /></div>
+          </div><!-- end of .actualDiv -->
+        </div><!-- end of .ME_w_evasee -->
+        
+        <div class="ME_calc_evasee">
+          <h3>Calculation Table</h3>
+          <div class='ME_calcDiv'>
+            <h4>For Calculating the Efficiency of Evasee please click the Calculate button &nbsp;<input type="button" id="ME_w_calc_btn" value="Calculate" /></h4>
+          </div><!-- end of. ME_optionsDiv -->
+          <div class="ME_resultDiv">
+            <div class="ME_rd_div"><span>Efficiency of Evasee(%) </span>&nbsp; : &nbsp;<input type="text" name="eoe" id="eoe" value="" /></div>
+            <div class="ME_rd_div"><span>Increase in Air Quantity(%) </span>&nbsp; :&nbsp; <input type="text" name="iaq" id="iaq" value="" /></div>
+          </div><!-- end of .actualDiv -->
+        </div><!-- end of .ME_calc_evasee -->
+        
+        
+      </div><!-- end of .ME_tables -->
+      <div class="clearfix"></div>
+    </div><!-- end of .ME_topDiv -->
+    
+    </div><!-- end of .myCanvas -->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+    </div>
+  </section>
+            </div>
+<script src="./js/modernizr-1.5.min.js"></script>
+<script src="./js/jquery-1.7.1.min.js"></script>
+<script src="js/main.js"></script>
+
+<!--https://cdn.plot.ly/plotly-latest.min.js-->
+
+
+
+<!--script defer src="../js/auto-render.min.js" onload="renderMathInElement(document.body);"></script-->
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 </body>
 </html>
+
