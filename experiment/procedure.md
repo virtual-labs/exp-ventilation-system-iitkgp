@@ -5,7 +5,7 @@
 - The velocity is measured using anemometer and static pressure using DPCal.
 - The performance is calculated using the following formula:
 
-$$ \eta = (\frac{P_{s1}-P{s1^2}}{\frac{1}{2} \rho (V_1^2-V_2^2)}) X 100 $$
+$$ \eta = (\frac{P_{s1}-P_{s1}^2}{\frac{1}{2} \rho (V_1^2-V_2^2)}) X 100 $$
 
 $$ \frac{A_1}{A_2} = \frac{1}{4} $$
 
