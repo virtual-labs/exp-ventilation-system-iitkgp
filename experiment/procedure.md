@@ -5,6 +5,12 @@
 - The velocity is measured using anemometer and static pressure using DPCal.
 - The performance is calculated using the following formula:
 
+$$ \eta = (\frac{P_{s1}-P{s1^2}}{\frac{1}{2} \rho (V_1^2-V_2^2)}) X 100 $$
+
+$$ \frac{A_1}{A_2} = \frac{1}{4} $$
+
+$$ \ where \  \eta \ = \ Efficiency \ of \ Evasee \ head \ recovered  $$
+
 ## Simulation Procedure
 #### Procedure to run the Simulator:
 
@@ -46,3 +52,5 @@
 
 13. Efficiency of the Evasee and the Increase in the Air quantity is.
 <div ><img class="expImg" src="images/simulator-procedure13.jpg" width="30%" /></div>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
