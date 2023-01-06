@@ -15,7 +15,7 @@ Hence, if  V<sub>1</sub> = velocity of air at fan outlet (Evasee inlet) and V<su
 
 $$ h= (\frac{v_1^2-v_2^2}{2g})\eta $$
 
-where $\eta$ efficiency of head recovery in the Evasee.
+where \(\eta\) efficiency of head recovery in the Evasee.
 
 ## Apparatus used:
 The required instruments in this experiment are given below
@@ -32,12 +32,13 @@ The required instruments in this experiment are given below
 5. D.P calculator
 
 ## Demo
-<div class="iframeDiv">
-            <iframe width="560" height="315" src="http://www.youtube.com/embed/GT4Ru7kDeAY" frameborder="0" allowfullscreen></iframe>
-          </div>
+
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/GT4Ru7kDeAY" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line --> 
 
 
 
-
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
