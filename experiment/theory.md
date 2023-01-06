@@ -8,15 +8,15 @@ Ideally, full conversion of the expected kinetic pressure energy to static press
 
 
 <div align="center">
-								<img src="images/theory1.jpg" width="330" height="200" class="theory_clip_image">
+								<img src="images/theory1.jpg" width="50%" class="theory_clip_image">
 								<p>Figure 1: Effect of an Evasee on the performance of a mine fan</p></div>
 
 Hence, if  V<sub>1</sub> = velocity of air at fan outlet (Evasee inlet) and V<sub>2</sub> = velocity of air at the Evasee outlet, the static head h recovered by the Evasee is given by the relation:
 
 $$ h= (\frac{v_1^2-v_2^2}{2g})\eta $$
 
-where $\eta$ efficiency of head recovery in the Evasee.
-$$ \ where \  \eta \ = \ efficiency \ of \ head \ recovery \ in \ the \ Evasee.  $$
+Where η efficiency of head recovery in the Evasee.
+
  
 ## Apparatus used:
 The required instruments in this experiment are given below
