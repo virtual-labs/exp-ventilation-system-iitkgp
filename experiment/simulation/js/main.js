@@ -1,7 +1,7 @@
 $(document).ready(function() {
 				
 	var top = 130;
-	var left = 78;
+	var left =78;
 	var temp = top;
 	var temp1 = left;
 	var goUp = true;
