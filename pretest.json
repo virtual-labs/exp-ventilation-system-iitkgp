@@ -1,0 +1,17 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "An Evasee is a device which is usually attached at the outlet of the mine fan to recover some of the wasteful energy to the useful pressure energy.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+        
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+    
+  ]
+}

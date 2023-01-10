@@ -1,0 +1,16 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Evasee is a gradually expanding conical frustum which converts a part of the kinetic energy to static energy by virtue of its area change (increase in area) between inlet to outlet.",
+      "answers": {
+        "a": "False",
+        "b": "True"
+       
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
