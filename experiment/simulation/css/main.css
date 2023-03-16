@@ -1,1 +1,153 @@
-/* You CSS goes in here */
+.ME_topDiv {
+	width:100%;
+	clear:both;
+}
+.ME_imgDiv {
+	float:left;
+	width:100%;
+	height:440px;
+	display:block;
+	background-image:url(../images/mine-evasee-1.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.ME_divLeft {
+	display:none;
+	position:absolute;
+	float:left;
+	width:130px;
+	height:280px;
+	background-image:url(../images/user.png);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+}
+#anemometer {
+	width: 25px !important;
+    height: 176px !important;
+    position: relative;
+    top: 100px;
+    left: 78px;
+}
+.ME_divRight {
+	width:375px;
+	float:right;
+}
+.ME_evasee, .ME_start {
+	clear:both;
+	width:100%;
+}
+.ME_evasee {
+	height:250px;
+}
+.ME_start {
+	height:144px;
+}
+.ME_tables {
+	width:100%;
+	min-height:200px;
+	clear:both;
+}
+.ME_wo_evasee, .ME_w_evasee, .ME_calc_evasee {
+	display:none;
+	float:left;
+	height:200px;
+	width:300px;
+	border:1px solid black;
+}	
+.ME_tables h3 {
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	font-size:15px;
+	border-bottom:1px solid #000;
+	text-align:center;
+}
+.div_at {
+	width:100%;
+	text-align:center;
+}
+.ME_tables .dynm_div {
+	display:none;
+	font-size:12px;
+	clear:both;
+	border-bottom:1px solid #000;
+}
+.dynm_div input[type=text] {
+	width:50px;
+}	
+.dynm_div span {
+	width: 180px;
+    display: block;
+    float: left;
+    padding-left: 10px;
+}	
+#ME_wo_measure, #ME_w_measure {
+	display:none;
+}
+.ME_optionsDiv  {
+	margin-top:60px;
+	text-align:center;
+	font-size:13px;
+}
+.ME_actualDiv {
+	display:none;
+}	
+.ME_calc_evasee {
+	position:relative;
+}
+.ME_calcDiv , .ME_resultDiv{
+	width: 250px;
+    height: 130px;
+    margin: auto;
+    position: absolute;
+    top: 50;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fa0;
+    font-size: 13px;
+    padding: 10px;
+}
+.ME_resultDiv {
+	display:none;
+	font-weight:bold;
+}
+.ME_resultDiv span {
+    display: block;
+    float: left;
+    width: 175px;
+}
+.ME_resultDiv input[type=text] {
+	width:50px;
+}
+.ME_divMiddle {
+	position:absolute;
+	float: left;
+    margin-left: 350px;
+    margin-top: 228px;
+	width:200px;
+	height:165px;
+	
+}
+.red_tube {
+position: relative;
+    width: 202px;
+    height: 4px;
+    background-color: #ccc;
+    -ms-transform: rotate(-46deg);
+    -webkit-transform: rotate(-46deg);
+    transform: rotate(-46deg);
+    top: 54px;
+    left: -24px;
+}
+.red_tube div{
+	width:0px;
+}
+.red_tube_class {
+	height:4px;
+	background-color:#FF0000;
+}
+h1.exp_header {
+	text-align: center;
+    font-size: 20px;
+}
